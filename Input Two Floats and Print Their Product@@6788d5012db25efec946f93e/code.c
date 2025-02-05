@@ -2,8 +2,8 @@
 int main(){
     float x;
     float y;
-    scanf("%2f%2f",x,y);
+    scanf("%2f%2f",&x,&y);
     float z=(x*y);
-    printf("Product:%d",z);
+    printf("Product:%2f",z);
     return 0;
 }
